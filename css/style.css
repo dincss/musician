@@ -104,10 +104,16 @@ header ul li a {
   color: #fff;
   font-family: 'Lemuria modern';
   text-decoration: none;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 header ul li a:hover {
   color: #2098D1;
   text-decoration: none;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 main {
   background: #FAF3E6;
@@ -152,7 +158,7 @@ footer p {
   right: 50%;
   bottom: 0;
   background: #2098D1;
-  height: 4px;
+  height: 2px;
   -webkit-transition-property: left, right;
   -o-transition-property: left, right;
   transition-property: left, right;
